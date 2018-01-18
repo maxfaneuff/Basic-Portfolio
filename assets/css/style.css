@@ -132,9 +132,14 @@ header {
 	border-bottom-style: solid;
 	border-color: #cccccc;
 	border-width: 1px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 }
 
+.icons {
+	padding-bottom: 20px;
+}
 #github {
 	margin-left: 50px;
 }
