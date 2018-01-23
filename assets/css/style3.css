@@ -41,6 +41,21 @@ a {
 
 }
 
+#header_name {
+	color: white;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	width: 240px;
+	font-size: 28px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 52px;
+	float: left;
+	margin-top: 0px;
+
+
+}
+
 .header_links {
 	line-height: 70px;
 	float: right;
@@ -57,100 +72,74 @@ a {
 	margin-right: 20px;
 }
 
-.portfolio {
+.Contact {
 	background-color: #ffffff;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #cccccc;
 	margin-top: 20px;
 	width: 670px;
-	height: 800px;
-
-}
-
-
-
-.portfolio_title, .pictures {
-	margin-left: 20px;
-}
-
-.pictures {
+	padding-left: 20px;	
 	position: relative;
-	margin-top: 40px;
-	
+
+
 }
 
-
-#portfolio_text {
+#contact_text {
 	color: #4aaaa5;
 	border-bottom-style: solid;
-	border-color: #cccccc;
-	margin-right: 40px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	margin-right: 20px;
 	padding-bottom: 20px;
 }
-
-#batter_banner {
-	position: relative;
-	bottom: 75px;
+.inputs {
+	color: #777777;
+	margin-bottom: 10px;
 }
 
-.mask-pic {
-	position: relative;
-	left: 350px;
-	bottom: 330px;
-
-}
-
-#mask_banner {
-	position: relative;
-	left: 350px;
-	bottom: 405px;
+#name_field {
+	margin-top: 5px;
+	width: 650px;
+	margin-bottom: 10px;
 
 }
 
-.meeting-pic {
-	position: relative;
-	bottom: 300px;
+#email_field {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 650px;
+
 }
 
-#meeting_banner {
-	position: relative;
-	bottom: 375px;
+#message_field {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
-.wire-pic {
-	position: relative;
-	bottom: 631px;
-	left: 350px;
-}
-
-#wire_banner {
-	position: relative;
-	bottom: 706px;
-	left: 350px;
-}
-
-
-#batter_banner, #mask_banner, #meeting_banner, #wire_banner {
-	color: white;
+.submit {
 	background-color: #4aaaa5;
-	width: 250px;
-	height: 40px;
+	color: white;
+	padding: 15px 32px;
 	text-align: center;
-	line-height: 40px;
-
+	display: inline-block;
+	margin-bottom: 15px;
 }
+
 
 .connect {
-	background-color: #ffffff;
 	width: 270px;
-	float: right;
+	background-color: #ffffff;
 	position: relative;
-	bottom: 800px;
-	border-width: 1px;
+	left: 720px;
+	bottom: 487px;
 	border-style: solid;
 	border-color: #cccccc;
+	padding-right: 10px;
+	padding-left: 10px;
+
 }
+
 
 #connect_with_me {
 	text-align: center;
@@ -176,7 +165,7 @@ footer {
 	border-top-width: 5px;
 	color: #d4d4d4;
 	position: relative;
+	bottom: 100px;
 	font-size: 10px;
 	line-height: 40px;
-	margin-top: 10px;
 }
